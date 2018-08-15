@@ -1,25 +1,17 @@
-package com.july28;
+package com.array;
 
 import java.util.Arrays;
 
 public class SortArray {
 
 	public static void main(String[] args) {
-		// Sort arrays
 		
-		String s []= {"java", "python", "apple", "orange"};		
-		int i[] = {1,2,0,8,7,9,-2};
-		char c[] = {'a','j','u','m','o','g','f'};	
+		int n[] = {1,2,3,-9,-8,-70,50,40};
 		
-		Arrays.sort(s);
-		System.out.println(Arrays.toString(s));
+		System.out.println("Before sorting :"+Arrays.toString(n));
+		Arrays.sort(n);
+		System.out.println("After sorting :"+Arrays.toString(n));	
 		
-		Arrays.sort(i);
-		System.out.println(Arrays.toString(i));
-		
-		Arrays.sort(c);
-		System.out.println(Arrays.toString(c));
-
 	}
 
 }
